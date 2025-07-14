@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const Usuarios = require('./db');
 
 const app = express();
 const PORT = 4000;
@@ -9,6 +10,12 @@ app.use(express.json());
 
 // Example in-memory data (replace with DB in production)
 let simulaciones = [];
+
+app.post('/api', async (req, res) => {
+  const emailUser = req.body.emailUser;
+  const document = await Usuarios.getByEmail({ emailUser });
+  res.json(document);
+});
 
 // GET all simulaciones
 app.get('/api/simulaciones', (req, res) => {
