@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const { simulacionesEjemplo } = require('./mocks/mockData');
 
 const app = express();
 const PORT = 4000;
@@ -8,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Example in-memory data (replace with DB in production)
-let simulaciones = [];
+let simulaciones = simulacionesEjemplo;
 
 // GET all simulaciones
 app.get('/api/simulaciones', (req, res) => {
