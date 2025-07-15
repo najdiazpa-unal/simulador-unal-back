@@ -1,27 +1,28 @@
-const { MongoClient } = require("mongodb");
+const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const uri = "mongodb+srv://csanchezor:Atl45d4b35t0n3.@simulador-unal-cluster.dryv4pr.mongodb.net/?retryWrites=true&w=majority&appName=simulador-unal-cluster";
 
-const client = new MongoClient(uri)
+// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
+});
 
-async function connect() {
+let db;
+
+async function connectDB() {
   try {
-    const database = client.db('data')
-    return database.collection('usuarios')
+    if (!db) db = client.db('data');
+    return db;
   } catch (error) {
-    console.error('Error connecting to the database')
+    console.error('Error connecting to the database.')
     console.error(error)
     await client.close()
   }
+  return db;
 }
 
-class Usuarios {
-  static async getByEmail({ emailUser }) {
-    const db = await connect();
-    return db.findOne({ correo: emailUser });
-  }
-}
-
-Usuarios.getByEmail({ emailUser: 'csanchezor' });
-
-module.exports = Usuarios;
+module.exports = connectDB;
