@@ -15,8 +15,8 @@ class UserModel {
       correo: emailUser,
       rol: 'estudiante'  // al realizar login solo se crean estudiantes
     };
-    const result = users.insertOne(newUser);
-    console.log(`Estudiante insertado con la _id: ${result.insertedId}`);
+    const result = await users.insertOne(newUser);
+    console.log(`Estudiante insertado en colección "usuarios" con la _id: ${result.insertedId}`);
   }
 }
 

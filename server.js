@@ -8,7 +8,7 @@ const PORT = 4000;
 app.use(cors());
 app.use(express.json());
 
-/* USUARIOS */
+// USUARIOS
 app.post('/api/auth', UserController.authenticate);
 
 // Example in-memory data (replace with DB in production)

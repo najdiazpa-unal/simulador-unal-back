@@ -12,7 +12,7 @@ class UserController {
       statusCode = 201;
     }
 
-    res.redirect(statusCode, '/simulaciones');
+    res.status(statusCode).json({ redirect: '/simulaciones' });
   }
 }
 
