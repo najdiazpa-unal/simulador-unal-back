@@ -1,4 +1,4 @@
-export const simulacionesEjemplo = [
+const simulacionesEjemplo = [
   {
     id: '1',
     nombre: 'Plan Principal',
@@ -69,3 +69,5 @@ export const simulacionesEjemplo = [
     }
   }
 ];
+
+module.exports = simulacionesEjemplo;

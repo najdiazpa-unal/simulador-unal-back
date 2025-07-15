@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { simulacionesEjemplo } = require('./mocks/mockData');
+const simulacionesEjemplo = require('./mocks/mockData');
 const UserController = require('./controllers/userController');
 
 const app = express();
