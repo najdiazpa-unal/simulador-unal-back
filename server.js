@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const { simulacionesEjemplo } = require('./mocks/mockData');
 const UserController = require('./controllers/userController');
 
 const app = express();
@@ -12,7 +13,7 @@ app.use(express.json());
 app.post('/api/auth', UserController.authenticate);
 
 // Example in-memory data (replace with DB in production)
-let simulaciones = [];
+let simulaciones = simulacionesEjemplo;
 
 // GET all simulaciones
 app.get('/api/simulaciones', (req, res) => {
