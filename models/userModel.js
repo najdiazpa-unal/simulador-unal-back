@@ -1,22 +1,20 @@
-const connectDB = require('../db');
+const { writeJSON } = require('../utils');
+const users = require('../data/usuarios.json');
+const usersPath = './data/usuarios.json';
 
 class UserModel {
-  static async getByEmail({ emailUser }) {
-    const db = await connectDB();
-    const users = await db.collection('usuarios');
-    const user = await users.findOne({ correo: emailUser });
-    return user;
+  static getByEmail(emailUser) {
+    return users.find(user => user.correo === emailUser);
   }
 
-  static async createStudent({ emailUser }) {
-    const db = await connectDB();
-    const users = await db.collection('usuarios');
+  static createStudent(emailUser) {
     const newUser = {
       correo: emailUser,
       rol: 'estudiante'  // al realizar login solo se crean estudiantes
     };
-    const result = await users.insertOne(newUser);
-    console.log(`Estudiante insertado en colección "usuarios" con la _id: ${result.insertedId}`);
+    users.push(newUser);
+    writeJSON(usersPath, users);
+    console.log(`Estudiante "${emailUser}" creado en /data/usuarios.json`);
   }
 }
 
