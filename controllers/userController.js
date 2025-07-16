@@ -12,7 +12,7 @@ class UserController {
       statusCode = 201;
     }
 
-    res.status(statusCode).json({ redirect: '/simulaciones' });
+    res.status(statusCode).json({ redirect: (user.rol === 'estudiante') ? '/simulaciones' : '/admin/asignaturas' });
   }
 }
 
