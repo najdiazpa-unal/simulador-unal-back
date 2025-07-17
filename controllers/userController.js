@@ -3,12 +3,14 @@ const UserModel = require('../models/userModel');
 class UserController {
   static async authenticate(req, res) {
     const emailUser = req.body.emailUser;
-    const user = UserModel.getByEmail(emailUser)
+    let user = UserModel.getByEmail(emailUser)
     
     let statusCode;
-    if (user) statusCode = 200;
-    else {
+    if (user) {
+      statusCode = 200;
+    } else {
       UserModel.createStudent(emailUser);
+      user = UserModel.getByEmail(emailUser); // Obtener el usuario recién creado
       statusCode = 201;
     }
 
