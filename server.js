@@ -3,6 +3,7 @@ const SimulacionModel = require('./models/simulacionModel');
 const cors = require('cors');
 //const simulacionesEjemplo = require('./mocks/mockData'); //Borar después
 const UserController = require('./controllers/userController');
+const SimulacionController = require('./controllers/simulacionController');
 const asignaturasData = require('./data/asignaturas.json');
 
 const app = express();
@@ -14,13 +15,10 @@ app.use(express.json());
 // USUARIOS
 app.post('/api/auth', UserController.authenticate);
 
-// Example in-memory data (replace with DB in production)
-//let simulaciones = simulacionesEjemplo; //Borrar despues   
-
 // SIMULACIONES
 // GET all simulaciones
 app.get('/api/simulaciones', (req, res) => {
-  const simulaciones = SimulacionModel.getAll();
+  const simulaciones = SimulacionController.getAllSimulaciones();
   res.json(simulaciones);
 });
 
