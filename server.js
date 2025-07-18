@@ -1,6 +1,7 @@
 const express = require('express');
+const SimulacionesModel = require('.SimulacionesModel.js');
 const cors = require('cors');
-const simulacionesEjemplo = require('./mocks/mockData');
+//const simulacionesEjemplo = require('./mocks/mockData'); //Borar después
 const UserController = require('./controllers/userController');
 const asignaturasData = require('./data/asignaturas.json');
 
@@ -14,41 +15,43 @@ app.use(express.json());
 app.post('/api/auth', UserController.authenticate);
 
 // Example in-memory data (replace with DB in production)
-let simulaciones = simulacionesEjemplo;
+//let simulaciones = simulacionesEjemplo; //Borrar despues   
 
 // SIMULACIONES
 // GET all simulaciones
 app.get('/api/simulaciones', (req, res) => {
+  const simulaciones = SimulacionModel.getAll();
   res.json(simulaciones);
 });
 
 // GET one simulacion by id
 app.get('/api/simulaciones/:id', (req, res) => {
-  const simulacion = simulaciones.find(s => s.id === req.params.id);
-  if (!simulacion) return res.status(404).json({ error: 'Not found' });
+  const simulacion = SimulacionModel.getById(req.params.id);
+  if (!simulacion) return res.status(404).json({ error: 'Simulación no encontrada' });
   res.json(simulacion);
 });
 
 // CREATE new simulacion
 app.post('/api/simulaciones', (req, res) => {
   const nueva = { ...req.body, id: Date.now().toString() };
-  simulaciones.push(nueva);
-  res.status(201).json(nueva);
+  const creada = SimulacionModel.create(nueva);
+  res.status(201).json(creada);
 });
 
 // UPDATE simulacion
 app.put('/api/simulaciones/:id', (req, res) => {
-  const idx = simulaciones.findIndex(s => s.id === req.params.id);
-  if (idx === -1) return res.status(404).json({ error: 'Not found' });
-  simulaciones[idx] = { ...simulaciones[idx], ...req.body };
-  res.json(simulaciones[idx]);
+  const actualizada = SimulacionModel.update(req.params.id, req.body);
+  if (!actualizada) return res.status(404).json({ error: 'Simulación no encontrada' });
+  res.json(actualizada);
 });
 
 // DELETE simulacion
 app.delete('/api/simulaciones/:id', (req, res) => {
-  simulaciones = simulaciones.filter(s => s.id !== req.params.id);
+  const eliminada = SimulacionModel.remove(req.params.id);
+  if (!eliminada) return res.status(404).json({ error: 'Simulación no encontrada' });
   res.status(204).end();
 });
+
 
 // ASIGNATURAS
 // GET all asignaturas
@@ -95,3 +98,5 @@ app.get('/api/configuracion', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+
