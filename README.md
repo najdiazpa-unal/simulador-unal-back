@@ -1,0 +1,1 @@
+Para crear un admin se utiliza el comando `node createAdmin.js usuario`, donde `usuario` es el username del admin (la parte del correo antes del "@").
