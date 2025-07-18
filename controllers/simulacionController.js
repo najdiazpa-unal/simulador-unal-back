@@ -16,6 +16,24 @@ class SimulacionController {
     const creada = SimulacionModel.create(nueva);
     res.status(201).json(creada);
   }
+
+  static async update(req, res) {
+    const actualizada = SimulacionModel.update(req.params.id, req.body);
+    if (!actualizada) return res.status(404).json({ error: 'Simulación no encontrada' });
+    res.json(actualizada);
+  }
+
+  static async getById(req, res) {
+    const simulacion = SimulacionModel.getById(req.params.id);
+    if (!simulacion) return res.status(404).json({ error: 'Simulación no encontrada' });
+    res.json(simulacion);
+  }
+
+  static async delete(req, res) {
+    const eliminada = SimulacionModel.remove(req.params.id);
+    if (!eliminada) return res.status(404).json({ error: 'Simulación no encontrada' });
+    res.status(204).end();
+  }
 }
 
 module.exports = SimulacionController;
