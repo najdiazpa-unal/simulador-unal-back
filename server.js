@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const { v4: uuidv4 } = require('uuid');
 const UserController = require('./controllers/userController');
 
 const SimulacionController = require('./controllers/simulacionController');
@@ -18,7 +17,7 @@ app.post('/api/auth', UserController.authenticate);
 
 // SIMULACIONES
 // GET all simulaciones
-app.get('/api/simulaciones', SimulacionController.getAllSimulaciones);
+app.get('/api/simulaciones', SimulacionController.getAll);
 
 // GET one simulacion by id
 app.get('/api/simulaciones/:id', (req, res) => {
@@ -28,11 +27,7 @@ app.get('/api/simulaciones/:id', (req, res) => {
 });
 
 // CREATE new simulacion
-app.post('/api/simulaciones', (req, res) => {
-  const nueva = { ...req.body, id: uuidv4() }; // Use uuid for id
-  const creada = SimulacionModel.create(nueva);
-  res.status(201).json(creada);
-});
+app.post('/api/simulaciones', SimulacionController.create);
 
 // UPDATE simulacion
 app.put('/api/simulaciones/:id', (req, res) => {
