@@ -1,8 +1,10 @@
 const express = require('express');
-const SimulacionModel = require('./models/simulacionModel');
 const cors = require('cors');
-//const simulacionesEjemplo = require('./mocks/mockData'); //Borar después
+const { v4: uuidv4 } = require('uuid');
 const UserController = require('./controllers/userController');
+
+const SimulacionController = require('./controllers/simulacionController');
+const SimulacionModel = require('./models/simulacionModel');
 const asignaturasData = require('./data/asignaturas.json');
 
 const app = express();
@@ -14,15 +16,9 @@ app.use(express.json());
 // USUARIOS
 app.post('/api/auth', UserController.authenticate);
 
-// Example in-memory data (replace with DB in production)
-//let simulaciones = simulacionesEjemplo; //Borrar despues   
-
 // SIMULACIONES
 // GET all simulaciones
-app.get('/api/simulaciones', (req, res) => {
-  const simulaciones = SimulacionModel.getAll();
-  res.json(simulaciones);
-});
+app.get('/api/simulaciones', SimulacionController.getAllSimulaciones);
 
 // GET one simulacion by id
 app.get('/api/simulaciones/:id', (req, res) => {
@@ -33,7 +29,7 @@ app.get('/api/simulaciones/:id', (req, res) => {
 
 // CREATE new simulacion
 app.post('/api/simulaciones', (req, res) => {
-  const nueva = { ...req.body, id: Date.now().toString() };
+  const nueva = { ...req.body, id: uuidv4() }; // Use uuid for id
   const creada = SimulacionModel.create(nueva);
   res.status(201).json(creada);
 });
