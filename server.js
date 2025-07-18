@@ -3,7 +3,6 @@ const cors = require('cors');
 const UserController = require('./controllers/userController');
 
 const SimulacionController = require('./controllers/simulacionController');
-const SimulacionModel = require('./models/simulacionModel');
 const asignaturasData = require('./data/asignaturas.json');
 
 const app = express();
