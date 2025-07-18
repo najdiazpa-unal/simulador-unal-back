@@ -1,6 +1,8 @@
 const express = require('express');
-const cors    = require('cors');
-const simulacionesEjemplo  = require('./mocks/mockData');
+const cors = require('cors');
+const UserController = require('./controllers/userController');
+const SimulacionController = require('./controllers/simulacionController');
+const asignaturasData = require('./data/asignaturas.json');
 const UserController       = require('./controllers/userController');
 const AsignaturaController = require('./controllers/asignaturaController');
 const AsignaturaModel      = require('./models/asignaturaModel');
@@ -15,42 +17,21 @@ app.use(express.json());
 // USUARIOS
 app.post('/api/auth', UserController.authenticate);
 
-// Example in-memory data (replace with DB in production)
-let simulaciones = simulacionesEjemplo;
-
 // SIMULACIONES
 // GET all simulaciones
-app.get('/api/simulaciones', (req, res) => {
-  res.json(simulaciones);
-});
+app.get('/api/simulaciones', SimulacionController.getAll);
 
 // GET one simulacion by id
-app.get('/api/simulaciones/:id', (req, res) => {
-  const simulacion = simulaciones.find(s => s.id === req.params.id);
-  if (!simulacion) return res.status(404).json({ error: 'Not found' });
-  res.json(simulacion);
-});
+app.get('/api/simulaciones/:id', SimulacionController.getById);
 
 // CREATE new simulacion
-app.post('/api/simulaciones', (req, res) => {
-  const nueva = { ...req.body, id: Date.now().toString() };
-  simulaciones.push(nueva);
-  res.status(201).json(nueva);
-});
+app.post('/api/simulaciones', SimulacionController.create);
 
 // UPDATE simulacion
-app.put('/api/simulaciones/:id', (req, res) => {
-  const idx = simulaciones.findIndex(s => s.id === req.params.id);
-  if (idx === -1) return res.status(404).json({ error: 'Not found' });
-  simulaciones[idx] = { ...simulaciones[idx], ...req.body };
-  res.json(simulaciones[idx]);
-});
+app.put('/api/simulaciones/:id', SimulacionController.update);
 
 // DELETE simulacion
-app.delete('/api/simulaciones/:id', (req, res) => {
-  simulaciones = simulaciones.filter(s => s.id !== req.params.id);
-  res.status(204).end();
-});
+app.delete('/api/simulaciones/:id', SimulacionController.delete);
 
 // ASIGNATURAS 
 // Search asignaturas

@@ -7,14 +7,11 @@ class UserModel {
     return users.find(user => user.correo === emailUser);
   }
 
-  static createStudent(emailUser) {
-    const newUser = {
-      correo: emailUser,
-      rol: 'estudiante'  // al realizar login solo se crean estudiantes
-    };
+  static create(emailUser, rol) {
+    const newUser = { correo: emailUser, rol };
     users.push(newUser);
     writeJSON(usersPath, users);
-    console.log(`Estudiante "${emailUser}" creado en /data/usuarios.json`);
+    console.log(`${rol.toUpperCase()} "${emailUser}" creado en /data/usuarios.json`);
   }
 }
 

@@ -9,7 +9,7 @@ class UserController {
     if (user) {
       statusCode = 200;
     } else {
-      UserModel.createStudent(emailUser);
+      UserModel.create(emailUser, 'estudiante');
       user = UserModel.getByEmail(emailUser); // Obtener el usuario recién creado
       statusCode = 201;
     }
