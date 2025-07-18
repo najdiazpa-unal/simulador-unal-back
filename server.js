@@ -1,5 +1,5 @@
 const express = require('express');
-const SimulacionesModel = require('.SimulacionesModel.js');
+const SimulacionModel = require('./models/simulacionModel');
 const cors = require('cors');
 //const simulacionesEjemplo = require('./mocks/mockData'); //Borar después
 const UserController = require('./controllers/userController');
