@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a55ac347-2bac-4b79-a902-aaa9f02f9a63",
+    "nombre": "Nuevo plan",
+    "fechaCreacion": "2025-07-18",
+    "matriculas": [],
+    "creditos": {
+      "fundamentacionObligatoria": 0,
+      "fundamentacionOptativa": 0,
+      "disciplinarObligatoria": 0,
+      "disciplinarOptativa": 0,
+      "libreEleccion": 0,
+      "total": 0
+    }
+  }
+]
