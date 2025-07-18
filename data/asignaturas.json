@@ -4,7 +4,7 @@
       "codigo": "3010440",
       "nombre": "Calidad de software",
       "creditos": 3,
-      "tipologia": "Disc. Obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3007852",
         "3007853",
@@ -21,7 +21,7 @@
       "codigo": "3011020",
       "nombre": "Fundamentos de analítica",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3010651",
         "3007847",
@@ -33,33 +33,42 @@
       ],
       "correrquisitos": [],
       "disponible": true,
-      "descripcion": "La Analítica se refiere al uso de grandes volúmenes de datos para el análisis y la toma de decisiones en contextos empresariales y de negocios. En esta área confluyen los conocimientos y saberes propios de cuatro grandes áreas de conocimiento: la computación, la estadística, el aprendizaje de máquinas y la investigación de operaciones. En este curso se abordan sus elementos fundamentales de la analítica y se busca que el estudiante desarrolle conocimientos, destrezas y habilidades básicas para la manipulación y modelado de grandes volúmenes de datos y la toma de decisiones."
+      "descripcion": "La Analítica se refiere al uso de grandes volúmenes de datos para el análisis y la toma de decisiones en contextos empresariales y de negocios. En esta área confluyen los conocimientos y saberes propios de cuatro grandes áreas de conocimiento: la computación, la estadística, el aprendizaje de máquinas y la investigación de operaciones. En este curso se abordan sus elementos fundamentales de la analítica y se busca que el estudiante desarrolle conocimientos, destrezas y habilidades básicas para la manipulación y modelado de grandes volúmenes de datos y la toma de decisiones.",
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": ""
     },
     {
       "codigo": "3010435",
       "nombre": "Fundamentos de programación",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
-      "descripcion": "DESCRIPCION El objetivo de este curso es introducir al estudiante en las técnicas básicas de programación. Busca desarrollar en el estudiante la capacidad el analisis de problemas y su solución empleando algoritmos. Para lograr este objetivo el alumno debe adquirir una serie de conocimientos, capacidades y aptitudes que le permitan enfrentar diversas situciones en relacionadas conb su carrera. OBJETIVO GENERAL Desarrollar en el estudiante la capacidad de analisis necesario para abordar problemas cuya solución pueda ser alcanzada empleando algoritmos. OBJETIVOS ESPECIFICOS 1. Comprender los fundamentos de la programación. 2. Entender los mecanismos de la programación estructurada. 3. Entender el flujo de ejecución de un programa de computador. 4. Analizar problemas y desarrollar su solución mediante algoritmos."
+      "descripcion": "DESCRIPCION El objetivo de este curso es introducir al estudiante en las técnicas básicas de programación. Busca desarrollar en el estudiante la capacidad el analisis de problemas y su solución empleando algoritmos. Para lograr este objetivo el alumno debe adquirir una serie de conocimientos, capacidades y aptitudes que le permitan enfrentar diversas situciones en relacionadas conb su carrera. OBJETIVO GENERAL Desarrollar en el estudiante la capacidad de analisis necesario para abordar problemas cuya solución pueda ser alcanzada empleando algoritmos. OBJETIVOS ESPECIFICOS 1. Comprender los fundamentos de la programación. 2. Entender los mecanismos de la programación estructurada. 3. Entender el flujo de ejecución de un programa de computador. 4. Analizar problemas y desarrollar su solución mediante algoritmos.",
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": ""
     },
     {
       "codigo": "3010408",
       "nombre": "Fundamentos de proyectos en ingeniería",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
-      "descripcion": "El objetivo principal del curso, que utiliza la metodología de aprendizaje basado en proyectos, es desarrollar pensamiento crítico y habilidades para resolver problemas, analizando el entorno y desarrollando el estado del arte del tema a trabajar para plantear soluciones a problemas reales. A través del trabajo en equipo de un proyecto, el estudiante desarrolla habilidades profesionales transversales, tales como comunicación (escrita y oral), toma de decisiones, trabajo en equipo y gestión de proyectos. Objetivos - Conocer y aplicar técnicas de identificación, caracterización y análisis de problemáticas, problemas, necesidades u oportunidades (PNO) en ing. - Plantear y analizar alternativas de solución en ing. - Plantear soluciones en ing. adaptadas a PNO reales y/o locales. - Identificar costos de la propuesta. Temas que aportan conocimiento nuevo para desarrollar capacidades de formulación y ejecución de proyectos: - Marco Lógico. - Introducción al diseño en Ing. - Búsqueda de información relevante. - Toma de decisiones en ing. - Análisis básico de costos. El curso se enmarca en la identificación de una PNO del contexto real, el estudiante tiene la posibilidad de explorar temas de interés. Los proyectos pueden tener diferentes orígenes. Autocoevaluación aplicada a la nota final, instrumento que permite la evaluación entre los integrantes de cada equipo. Las notas serán las correspondientes al integrante que menos saque. Cada nota se relaciona con el trabajo en equipo. PRÁCTICA: el desarrollo de los temas de la asignatura podrá tener como complemento el desarrollo de prácticas extramurales, visitas técnicas, salidas de campo; en la ciudad de Medellín o en los Municipios del departamento de Antioquia; las cuales estarán supeditadas al cumplimiento de los requerimientos definidos por la Universidad Nacional de Colombia.Tendrá una duración de 1 o máximo 2 días según el alcance de la práctica(aprobado por el CFM 5/12/2024 oficio M.FM.1.004-7224 del 6/12/2024)."
+      "descripcion": "El objetivo principal del curso, que utiliza la metodología de aprendizaje basado en proyectos, es desarrollar pensamiento crítico y habilidades para resolver problemas, analizando el entorno y desarrollando el estado del arte del tema a trabajar para plantear soluciones a problemas reales. A través del trabajo en equipo de un proyecto, el estudiante desarrolla habilidades profesionales transversales, tales como comunicación (escrita y oral), toma de decisiones, trabajo en equipo y gestión de proyectos. Objetivos - Conocer y aplicar técnicas de identificación, caracterización y análisis de problemáticas, problemas, necesidades u oportunidades (PNO) en ing. - Plantear y analizar alternativas de solución en ing. - Plantear soluciones en ing. adaptadas a PNO reales y/o locales. - Identificar costos de la propuesta. Temas que aportan conocimiento nuevo para desarrollar capacidades de formulación y ejecución de proyectos: - Marco Lógico. - Introducción al diseño en Ing. - Búsqueda de información relevante. - Toma de decisiones en ing. - Análisis básico de costos. El curso se enmarca en la identificación de una PNO del contexto real, el estudiante tiene la posibilidad de explorar temas de interés. Los proyectos pueden tener diferentes orígenes. Autocoevaluación aplicada a la nota final, instrumento que permite la evaluación entre los integrantes de cada equipo. Las notas serán las correspondientes al integrante que menos saque. Cada nota se relaciona con el trabajo en equipo. PRÁCTICA: el desarrollo de los temas de la asignatura podrá tener como complemento el desarrollo de prácticas extramurales, visitas técnicas, salidas de campo; en la ciudad de Medellín o en los Municipios del departamento de Antioquia; las cuales estarán supeditadas al cumplimiento de los requerimientos definidos por la Universidad Nacional de Colombia.Tendrá una duración de 1 o máximo 2 días según el alcance de la práctica(aprobado por el CFM 5/12/2024 oficio M.FM.1.004-7224 del 6/12/2024).",
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": ""
     },
     {
       "codigo": "3007852",
       "nombre": "INGENIERÍA DE REQUISITOS",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3007853",
         "3007744",
@@ -73,7 +82,7 @@
       "codigo": "3007853",
       "nombre": "INGENIERÍA DE SOFTWARE",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3007744",
         "3010435"
@@ -86,7 +95,7 @@
       "codigo": "3010438",
       "nombre": "Introducción a la ingeniería de sistemas e informática",
       "creditos": 2,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -96,7 +105,7 @@
       "codigo": "3010476",
       "nombre": "Introducción a la inteligencia artificial",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3010651",
         "3007847",
@@ -113,7 +122,7 @@
       "codigo": "3010415",
       "nombre": "Introducción al análisis de decisiones",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3007331",
         "3010651",
@@ -130,7 +139,7 @@
       "codigo": "3007324",
       "nombre": "INVESTIGACIÓN DE OPERACIONES I",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "1000003-M",
         "3010435"
@@ -143,7 +152,7 @@
       "codigo": "3007744",
       "nombre": "PROGRAMACIÓN ORIENTADA A OBJETOS",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3010435"
       ],
@@ -155,7 +164,7 @@
       "codigo": "3010439",
       "nombre": "Proyecto Integrado de Ingeniería",
       "creditos": 4,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -165,7 +174,7 @@
       "codigo": "3007865",
       "nombre": "REDES Y TELECOMUNICACIONES I",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3007867",
         "3010426",
@@ -180,7 +189,7 @@
       "codigo": "3007331",
       "nombre": "SIMULACIÓN DE SISTEMAS",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3010651",
         "3007324",
@@ -196,7 +205,7 @@
       "codigo": "3007867",
       "nombre": "SISTEMAS OPERATIVOS",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3010426",
         "3006906",
@@ -210,7 +219,7 @@
       "codigo": "3010426",
       "nombre": "Teoría de lenguajes de programación",
       "creditos": 3,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Disciplinar Obligatoria",
       "prerrequisitos": [
         "3006906",
         "3010435"
@@ -223,7 +232,7 @@
       "codigo": "1000003-M",
       "nombre": "ÁLGEBRA LINEAL",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [
         "1000008-M"
       ],
@@ -235,7 +244,7 @@
       "codigo": "1000004-M",
       "nombre": "CÁLCULO DIFERENCIAL",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -245,7 +254,7 @@
       "codigo": "1000005-M",
       "nombre": "CÁLCULO INTEGRAL",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [
         "1000004-M"
       ],
@@ -257,7 +266,7 @@
       "codigo": "3010651",
       "nombre": "Estadística I",
       "creditos": 3,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [
         "1000003-M",
         "1000005-M"
@@ -270,7 +279,7 @@
       "codigo": "1000019-M",
       "nombre": "FÍSICA MECÁNICA",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -280,7 +289,7 @@
       "codigo": "1000008-M",
       "nombre": "GEOMETRÍA VECTORIAL Y ANALÍTICA",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -290,7 +299,7 @@
       "codigo": "3006906",
       "nombre": "MATEMÁTICAS DISCRETAS",
       "creditos": 4,
-      "tipologia": "fundamentacion_obligatoria",
+      "tipologia": "Fundamentación Obligatoria",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -300,7 +309,7 @@
       "codigo": "3007848",
       "nombre": "BASE DE DATOS II",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007744",
@@ -314,7 +323,7 @@
       "codigo": "3010836",
       "nombre": "Cátedra de sistemas: una visión histórico-cultural de la computación",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741"
       ],
@@ -326,7 +335,7 @@
       "codigo": "3011169",
       "nombre": "Cátedra Industria TI",
       "creditos": 2,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741"
       ],
@@ -338,7 +347,7 @@
       "codigo": "3011170",
       "nombre": "Cátedra Lovelace-Turing",
       "creditos": 2,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741"
       ],
@@ -350,7 +359,7 @@
       "codigo": "3011167",
       "nombre": "Ciberseguridad",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007595"
@@ -363,7 +372,7 @@
       "codigo": "3010757",
       "nombre": "Aplicaciones móviles",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007865"
@@ -376,7 +385,7 @@
       "codigo": "3011093",
       "nombre": "Computación paralela",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741",
         "3007847"
@@ -389,7 +398,7 @@
       "codigo": "3010585",
       "nombre": "Creación de videojuegos",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007744"
       ],
@@ -401,7 +410,7 @@
       "codigo": "3011018",
       "nombre": "Creación multimedia",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007744"
       ],
@@ -413,7 +422,7 @@
       "codigo": "3011171",
       "nombre": "Desarrollo móvil",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847"
       ],
@@ -425,7 +434,7 @@
       "codigo": "3011019",
       "nombre": "Desarrollo web I (LA MEJOR)",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007865"
@@ -438,7 +447,7 @@
       "codigo": "3011172",
       "nombre": "Desarrollo web II",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3011171"
       ],
@@ -450,7 +459,7 @@
       "codigo": "3007311",
       "nombre": "DINAMICA DE SISTEMAS",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007325",
         "1000003-M"
@@ -463,7 +472,7 @@
       "codigo": "3011173",
       "nombre": "Diseño de experiencia de usuario",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007852"
       ],
@@ -475,7 +484,7 @@
       "codigo": "3007850",
       "nombre": "DISEÑO Y CONSTRUCCIÓN DE PRODUCTOS DE SOFTWARE",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007852",
         "3007853"
@@ -488,7 +497,7 @@
       "codigo": "3007202",
       "nombre": "FUNDAMENTOS DE ECONOMÍA",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "1000003-M"
       ],
@@ -500,7 +509,7 @@
       "codigo": "3010524",
       "nombre": "Fundamentos de mercadeo",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007202"
       ],
@@ -512,7 +521,7 @@
       "codigo": "3011166",
       "nombre": "Fundamentos de sistemas de información e inteligencia de negocios",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007325"
@@ -525,7 +534,7 @@
       "codigo": "3007851",
       "nombre": "GESTIÓN DE PROYECTOS DE SOFTWARE",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007852",
         "3007853"
@@ -538,7 +547,7 @@
       "codigo": "3010500",
       "nombre": "Gestión del talento humano",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3010425"
       ],
@@ -550,7 +559,7 @@
       "codigo": "3011174",
       "nombre": "Integración y despliegue de software",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007853",
         "3007851"
@@ -563,7 +572,7 @@
       "codigo": "3009151",
       "nombre": "Introducción a la Robótica",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741",
         "1000007-M"
@@ -576,7 +585,7 @@
       "codigo": "3007323",
       "nombre": "INVESTIGACIÓN DE MERCADOS",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3010524",
         "3006927"
@@ -589,7 +598,7 @@
       "codigo": "3007325",
       "nombre": "INVESTIGACIÓN DE OPERACIONES II",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007324",
         "3006927"
@@ -602,7 +611,7 @@
       "codigo": "3011175",
       "nombre": "Optimización heurística",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007325",
         "3007741"
@@ -615,7 +624,7 @@
       "codigo": "3011176",
       "nombre": "Procesamiento de lenguaje natural",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741",
         "3009150"
@@ -628,7 +637,7 @@
       "codigo": "3007871",
       "nombre": "PROGRAMACIÓN MATEMÁTICA",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007325",
         "1000006-M"
@@ -641,7 +650,7 @@
       "codigo": "3011021",
       "nombre": "Programación para ingeniería",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741"
       ],
@@ -653,7 +662,7 @@
       "codigo": "3009150",
       "nombre": "Redes Neuronales Artificiales y Algoritmos Bio-Inspirados",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741",
         "1000006-M"
@@ -666,7 +675,7 @@
       "codigo": "3007595",
       "nombre": "REDES TELEINFORMATICAS I",
       "creditos": 4,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847"
       ],
@@ -678,7 +687,7 @@
       "codigo": "3007596",
       "nombre": "REDES TELEINFORMATICAS II",
       "creditos": 4,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007595"
       ],
@@ -690,7 +699,7 @@
       "codigo": "3007597",
       "nombre": "REDES TELEINFORMATICAS III",
       "creditos": 4,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007596"
       ],
@@ -702,7 +711,7 @@
       "codigo": "3009936",
       "nombre": "Seguridad WEB",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3011171",
         "3007847"
@@ -715,7 +724,7 @@
       "codigo": "3011034",
       "nombre": "Servicios en la nube",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007595"
       ],
@@ -727,7 +736,7 @@
       "codigo": "3007860",
       "nombre": "Sistema de Recuperación de Información de Web",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007847",
         "3007741"
@@ -740,7 +749,7 @@
       "codigo": "3007872",
       "nombre": "SISTEMAS COMPLEJOS",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "1000007-M",
         "3007741"
@@ -753,7 +762,7 @@
       "codigo": "3007854",
       "nombre": "TÉCNICAS EN APRENDIZAJE ESTADÍSTICO",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3009150",
         "3006927"
@@ -766,7 +775,7 @@
       "codigo": "3010425",
       "nombre": "Teoría administrativa y organizacional",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007202"
       ],
@@ -778,7 +787,7 @@
       "codigo": "3007873",
       "nombre": "TEORÍA DE LA ORGANIZACIÓN INDUSTRIAL",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007202",
         "3007325"
@@ -791,7 +800,7 @@
       "codigo": "3007862",
       "nombre": "VISIÓN ARTIFICIAL",
       "creditos": 3,
-      "tipologia": "disciplinar_optativa",
+      "tipologia": "Disciplinar Optativa",
       "prerrequisitos": [
         "3007741",
         "1000006-M"
@@ -804,7 +813,7 @@
       "codigo": "1000009-M",
       "nombre": "BIOLOGÍA GENERAL",
       "creditos": 3,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -814,7 +823,7 @@
       "codigo": "1000006-M",
       "nombre": "CÁLCULO EN VARIAS VARIABLES",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -824,7 +833,7 @@
       "codigo": "1000007-M",
       "nombre": "ECUACIONES DIFERENCIALES",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -834,7 +843,7 @@
       "codigo": "3006927",
       "nombre": "ESTADÍSTICA DESCRIPTIVA Y EXPLORATORIA",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -844,7 +853,7 @@
       "codigo": "3006915",
       "nombre": "ESTADÍSTICA II",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -854,7 +863,7 @@
       "codigo": "3009137",
       "nombre": "Estadística III",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -864,7 +873,7 @@
       "codigo": "1000017-M",
       "nombre": "FÍSICA DE ELECTRICIDAD Y MAGNETISMO",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -874,7 +883,7 @@
       "codigo": "1000020-M",
       "nombre": "FÍSICA DE OSCILACIONES, ONDAS Y ÓPTICA",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -884,7 +893,7 @@
       "codigo": "3010334",
       "nombre": "Fundamentos de matemáticas",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -894,7 +903,7 @@
       "codigo": "3010391",
       "nombre": "Geometría Aplicada",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -904,7 +913,7 @@
       "codigo": "3006931",
       "nombre": "INTRODUCCIÓN AL MANEJO DE DATOS ESTADÍSTICOS",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -914,7 +923,7 @@
       "codigo": "3006825",
       "nombre": "Laboratorio de química general",
       "creditos": 2,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -924,7 +933,7 @@
       "codigo": "3006905",
       "nombre": "MATEMÁTICAS ESPECIALES",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -934,7 +943,7 @@
       "codigo": "3006907",
       "nombre": "MÉTODOS NUMÉRICOS",
       "creditos": 4,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -944,7 +953,7 @@
       "codigo": "3006829",
       "nombre": "Química general",
       "creditos": 3,
-      "tipologia": "fundamentacion_optativa",
+      "tipologia": "Fundamentación Optativa",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -954,7 +963,7 @@
       "codigo": "3007869",
       "nombre": "CURSOS DE POSGRADO",
       "creditos": 6,
-      "tipologia": "trabajo_de_grado",
+      "tipologia": "Trabajo de Grado",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -964,7 +973,7 @@
       "codigo": "3010684",
       "nombre": "Práctica de Extensión",
       "creditos": 6,
-      "tipologia": "trabajo_de_grado",
+      "tipologia": "Trabajo de Grado",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -974,7 +983,7 @@
       "codigo": "3007868",
       "nombre": "TRABAJO DE GRADO",
       "creditos": 6,
-      "tipologia": "trabajo_de_grado",
+      "tipologia": "Trabajo de Grado",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -984,7 +993,7 @@
       "codigo": "L001",
       "nombre": "HISTORIA DE COLOMBIA",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -994,7 +1003,7 @@
       "codigo": "L002",
       "nombre": "FILOSOFÍA POLÍTICA",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1004,7 +1013,7 @@
       "codigo": "L003",
       "nombre": "DEPORTE FORMATIVO I",
       "creditos": 1,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1014,7 +1023,7 @@
       "codigo": "L004",
       "nombre": "DEPORTE FORMATIVO II",
       "creditos": 1,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [
         "L003"
       ],
@@ -1026,7 +1035,7 @@
       "codigo": "L005",
       "nombre": "ARTE Y CULTURA",
       "creditos": 2,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1036,7 +1045,7 @@
       "codigo": "L006",
       "nombre": "ECOLOGÍA BÁSICA",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1046,7 +1055,7 @@
       "codigo": "L007",
       "nombre": "EMPRENDIMIENTO E INNOVACIÓN",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1056,7 +1065,7 @@
       "codigo": "L008",
       "nombre": "ÉTICA PROFESIONAL",
       "creditos": 2,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1066,7 +1075,7 @@
       "codigo": "L009",
       "nombre": "LENGUA DE SEÑAS COLOMBIANA",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1076,7 +1085,7 @@
       "codigo": "L010",
       "nombre": "PSICOLOGÍA GENERAL",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1086,7 +1095,7 @@
       "codigo": "L011",
       "nombre": "COMUNICACIÓN ORAL Y ESCRITA",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1096,7 +1105,7 @@
       "codigo": "L012",
       "nombre": "FRANCÉS BÁSICO I",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1106,7 +1115,7 @@
       "codigo": "L013",
       "nombre": "FRANCÉS BÁSICO II",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [
         "L012"
       ],
@@ -1118,7 +1127,7 @@
       "codigo": "L014",
       "nombre": "ALEMÁN BÁSICO I",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1128,7 +1137,7 @@
       "codigo": "L015",
       "nombre": "ALEMÁN BÁSICO II",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [
         "L014"
       ],
@@ -1140,7 +1149,7 @@
       "codigo": "L016",
       "nombre": "MÚSICA Y SOCIEDAD",
       "creditos": 2,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1150,7 +1159,7 @@
       "codigo": "L017",
       "nombre": "TEATRO Y EXPRESIÓN",
       "creditos": 2,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1160,7 +1169,7 @@
       "codigo": "L018",
       "nombre": "FOTOGRAFÍA BÁSICA",
       "creditos": 2,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1170,7 +1179,7 @@
       "codigo": "L019",
       "nombre": "SOCIOLOGÍA GENERAL",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1180,7 +1189,7 @@
       "codigo": "L020",
       "nombre": "ANTROPOLOGÍA CULTURAL",
       "creditos": 3,
-      "tipologia": "libre_eleccion",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
@@ -1190,45 +1199,48 @@
       "codigo": "TEST001",
       "nombre": "PRUEBA API BACKEND",
       "creditos": 4,
-      "tipologia": "disciplinar_obligatoria",
+      "tipologia": "Libre Elección",
       "prerrequisitos": [],
       "correrquisitos": [],
       "disponible": true,
-      "descripcion": "Asignatura de prueba para verificar que el frontend consume la API del backend correctamente."
+      "descripcion": "Asignatura de prueba para verificar que el frontend consume la API del backend correctamente.",
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": ""
     }
   ],
   "tipologias": {
-    "fundamentacion_obligatoria": {
+    "Fundamentación Obligatoria": {
       "nombre": "Fundamentación Obligatoria",
       "descripcion": "Asignaturas básicas obligatorias del programa",
       "creditos_minimos": 45,
       "color": "#dc2626"
     },
-    "fundamentacion_optativa": {
+    "Fundamentación Optativa": {
       "nombre": "Fundamentación Optativa",
       "descripcion": "Asignaturas básicas optativas del programa",
       "creditos_minimos": 12,
       "color": "#2563eb"
     },
-    "disciplinar_obligatoria": {
+    "Disciplinar Obligatoria": {
       "nombre": "Disciplinar Obligatoria",
       "descripcion": "Asignaturas específicas obligatorias del programa",
       "creditos_minimos": 78,
       "color": "#57844A"
     },
-    "disciplinar_optativa": {
+    "Disciplinar Optativa": {
       "nombre": "Disciplinar Optativa",
       "descripcion": "Asignaturas específicas optativas del programa",
       "creditos_minimos": 15,
       "color": "#7c3aed"
     },
-    "libre_eleccion": {
+    "Libre Elección": {
       "nombre": "Libre Elección",
       "descripcion": "Asignaturas de libre elección del estudiante",
       "creditos_minimos": 6,
       "color": "#059669"
     },
-    "trabajo_de_grado": {
+    "Trabajo de Grado": {
       "nombre": "Trabajo de Grado",
       "descripcion": "Asignaturas relacionadas con el trabajo final de grado",
       "creditos_minimos": 6,
