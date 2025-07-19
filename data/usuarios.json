@@ -1,17 +1,26 @@
 [
   {
+    "id": "4acbb01e-e76e-4e51-9f64-689bee9d3649",
+    "correo": "anherrerac",
+    "rol": "admin"
+  },
+  {
+    "id": "667bd827-268f-41cd-99a6-3921b6e986e7",
     "correo": "csanchezor",
-    "rol": "estudiante"
+    "rol": "admin"
   },
   {
+    "id": "65296dff-328c-4c43-9332-28f3ac877ff9",
     "correo": "djtaimalp",
+    "rol": "dev"
+  },
+  {
+    "id": "61972807-f64f-4e85-a8e6-52ed776566df",
+    "correo": "jumunerap",
     "rol": "estudiante"
   },
   {
-    "correo": "test@unal.edu.co",
-    "rol": "estudiante"
-  },
-  {
+    "id": "25ac1ddf-ad47-451e-b9ab-853bf59f7959",
     "correo": "najdiazpa",
     "rol": "estudiante"
   }

@@ -1,3 +1,4 @@
+const { v4: uuidv4 } = require('uuid');
 const UserModel = require('../models/userModel');
 
 class UserController {
@@ -9,12 +10,15 @@ class UserController {
     if (user) {
       statusCode = 200;
     } else {
-      UserModel.create(emailUser, 'estudiante');
+      UserModel.create(uuidv4(), emailUser, 'estudiante');
       user = UserModel.getByEmail(emailUser); // Obtener el usuario recién creado
       statusCode = 201;
     }
 
-    res.status(statusCode).json({ redirect: (user.rol === 'estudiante') ? '/simulaciones' : '/admin/asignaturas' });
+    res.status(statusCode).json({
+      redirect: (user.rol === 'estudiante') ? '/simulaciones' : '/admin/asignaturas',
+      userId: user.id
+    });
   }
 }
 
