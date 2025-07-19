@@ -1,8 +1,9 @@
 [
   {
-    "id": "1197c408-d323-4f25-8472-79b86baf6574",
+    "id": "306828d5-9439-44ea-b427-00fa4a36f829",
     "nombre": "Nuevo plan",
-    "fechaCreacion": "2025-07-18",
+    "fechaCreacion": "2025-07-19",
+    "usuario": "25ac1ddf-ad47-451e-b9ab-853bf59f7959",
     "matriculas": [],
     "creditos": {
       "fundamentacionObligatoria": 0,

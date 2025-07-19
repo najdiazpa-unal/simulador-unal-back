@@ -17,6 +17,11 @@ function guardarSimulaciones(simulaciones) {
 module.exports = {
   getAll: () => leerSimulaciones(),
 
+  getAllByUser: (userId) => {
+    const simulaciones = leerSimulaciones();
+    return simulaciones.filter(s => s.usuario === userId);
+  },
+
   getById: (id) => {
     const simulaciones = leerSimulaciones();
     return simulaciones.find(s => s.id === id);
