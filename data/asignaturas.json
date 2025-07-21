@@ -1207,6 +1207,62 @@
       "avance": false,
       "avanceTipologia": "",
       "avancePorcentaje": ""
+    },
+    {
+      "nombre": "BASE DE DATOS I",
+      "codigo": "3007847",
+      "creditos": "3",
+      "tipologia": "Disciplinar Obligatoria",
+      "descripcion": "Objetivo general: \nPresentar los conceptos básicos referentes a la teoría de bases de datos, formas de modelarlas, manipularlas y permitir la interacción con ellas mediante un sistema de gestión de bases de datos (SGBD). \n\nObjetivos específicos: \n- Modelar una base de datos tanto conceptual como lógicamente.\n- Hacer uso de un lenguaje de base de datos para la implementación y manipulación de bases de datos relacionales.\n- Construir interfaces de usuario para la interacción con un SGBD.  \n\nMetodología:\n- Clases magistrales.\n- Clases prácticas en la sala de cómputo.\n- Asesorías extra clase.\n- Desarrollo de ejercicios en clase por parte de los estudiantes y el profesor.\n- Asignación de trabajos en grupo.\n\n Evaluación: \n- Exámenes.\n- Trabajos en entregas parciales.",
+      "prerrequisitos": [
+        "3007741"
+      ],
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": "",
+      "id": "1753139675616"
+    },
+    {
+      "nombre": "ESTRUCTURA DE DATOS",
+      "codigo": "3007741",
+      "creditos": "3",
+      "tipologia": "Disciplinar Obligatoria",
+      "descripcion": "OBJETIVOS:\n\n- Presentarle al estudiante los conceptos y técnicas asociadas a la definición de agregados de datos y algoritmos para su manipulación, en contexto de los lenguajes procedí mentales.\n- Agregados como concepto relativo a la óptica del observador\n- Operaciones sobre los agregados: constructores y Destructores, Cursor y Navegación, Actualización y Consulta.\n- Interfaz e implementación: El agregado como un tipo abstracto sobre el que poseen solo las operaciones.\n- Eficiencia de los algoritmos: Orden y tipicación de los algoritmos (voraces, divide y vencerás, precondicionamiento, probalísticos).\n- Estructura de datos iteradas y su efecto en las operaciones:  listas ordenadas, arboles, arboles de búsqueda, arboles +, estructuras Hash.\n\nEn el curso se presentan tanto los elementos conceptuales como ejemplos y algoritmos específicos.  Los tópicos se presentan con independencia del lenguaje de programación, haciendo énfasis en los aspectos conceptuales y en los aspectos estructurales del diseño. Para los proyectos de programación el estudiante deberá usar el lenguaje C (o C++).\n\nMetodología y Evaluación:\nSe combinarán conferencias magistrales para la presentación de los conceptos y ejemplos básicos, con una serie de talleres dirigidos, orientados a facilitarle al estudiante la elaboración de los proyectos de programación involucrados en el curso.\n\nSe propondrá una serie de proyectos de programación orientados a reforzar los conceptos presentados, que deben ser elaborados de forma individual por los estudiantes y discutidos en clases especiales para tal fin.\n\nEvaluación:\nTrabajos: 15%\nExámenes: 75%\nExámenes cortos: 10%",
+      "prerrequisitos": [
+        "3007744"
+      ],
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": "",
+      "id": "1753139745368"
+    },
+    {
+      "nombre": "Estructuración y evaluación de proyectos de ingeniería",
+      "codigo": "3010407",
+      "creditos": "3",
+      "tipologia": "Disciplinar Obligatoria",
+      "descripcion": "El objetivo principal del curso, que utiliza la metodología de aprendizaje basado en proyectos, es desarrollar pensamiento crítico y habilidades para resolver problemas, analizando el entorno y desarrollando el estado del arte del tema a trabajar para plantear soluciones a problemas reales. A través del trabajo en equipo de un proyecto, se desarrolla habilidades profesionales transversales, como comunicación (escrita y oral), toma de decisiones, trabajo en equipo y gestión de proyectos. En las herramientas ambientales, financieras y económicas (AFE) se estudian casos en parejas aleatorias para el desarrollo de habilidades transversales y apropiación de conceptos, se realiza un parcial individual de herramientas financieras para evaluar conceptos. Aporta conocimientos en herramientas de estructuración y evaluación de proyectos (EEP) desde AFE con aspectos técnicos y legales, para evaluar factibilidad y viabilidad de proy. productivos. Objetivos- Identificar, caracterizar y analizar un problema u oportunidad (PO) reales. - Adquirir conocimientos avanzados de gestión y planeación de proy. de ing.- Introducir en el diseño y uso de herramientas para la (EEP) de ing. a nivel AFE. - Evaluar la viabilidad técnica, AFE de proyectos productivos. Autocoevaluación aplicada a la nota final del proyecto (50%), instrumento que permite evaluar trabajo en equipo. Las notas serán las correspondientes al integrante que menos saque. Cada nota se relaciona con trabajo en equipo.\nPRÁCTICA: el desarrollo de los temas de la asignatura podrá tener como complemento el desarrollo de prácticas extramurales, visitas técnicas, salidas de campo; en la ciudad de Medellín o en los Municipios del departamento de Antioquia; las cuales estarán supeditadas al cumplimiento de los requerimientos definidos por la Universidad Nacional de Colombia. Tendrá una duración de 1 o máximo 2 días según el alcance de la práctica (aprobado por el Consejo de la Facultad de Minas el 5 de diciembre de 2024, Acta 33).",
+      "prerrequisitos": [
+        "3010408"
+      ],
+      "avance": true,
+      "avanceTipologia": "Disciplinar",
+      "avancePorcentaje": "20",
+      "id": "1753139922486"
+    },
+    {
+      "nombre": "Análisis y Diseño de Algoritmos",
+      "codigo": "3009430",
+      "creditos": "3",
+      "tipologia": "Disciplinar Optativa",
+      "descripcion": "Cualquiera con una experiencia mínima en algoritmos y programación sabe que para un mismo problema pueden existir innumerables algoritmos de solución. Tales soluciones pueden variar en diversos aspectos, siendo de particular interés la eficiencia en términos de su costo computacional. En el contexto de dicha eficiencia se puede hablar de algoritmos \"mejores\" que otros, siendo el objetivo principal de esta asignatura brindarle elementos al estudiante para analizar y diseñar algoritmos eficientes.\n\nPese a su enfoque a la programación, los contenidos de la asignatura se presentan sin considerar un lenguaje específico, haciendo así énfasis en los aspectos conceptuales y estructurales de los algoritmos. Es necesario sin embargo que el estudiante no solamente conozca sino que tenga buen dominio de algún lenguaje de programación, preferiblemente Java o C++.\n\nLa metodología de la asignatura se compone de clases teóricas magistrales para la actividad presencial y ejercicios propuestos para la actividad autonoma independiente. Igualmente, la asignatura hace uso de foros de discusión en línea para compartir resultados, resolver dudas, y profundizar contenidos.\n\nLa evaluación se realiza mediante la resolución de talleres, mínimo uno por cada uno de los temas abordados exceptuando la introducción.",
+      "prerrequisitos": [
+        "3007741"
+      ],
+      "avance": false,
+      "avanceTipologia": "",
+      "avancePorcentaje": "",
+      "id": "1753140612890"
     }
   ],
   "tipologias": {

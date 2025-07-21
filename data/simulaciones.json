@@ -13,5 +13,35 @@
       "libreEleccion": 0,
       "total": 0
     }
+  },
+  {
+    "id": "73484cf3-d280-4ed5-8557-a479a99050bf",
+    "nombre": "hola",
+    "fechaCreacion": "2025-07-21",
+    "usuario": null,
+    "matriculas": [],
+    "creditos": {
+      "fundamentacionObligatoria": 0,
+      "fundamentacionOptativa": 0,
+      "disciplinarObligatoria": 0,
+      "disciplinarOptativa": 0,
+      "libreEleccion": 0,
+      "total": 0
+    }
+  },
+  {
+    "id": "b740a323-d585-41e5-a0f5-d437d0f58f50",
+    "nombre": "olol",
+    "fechaCreacion": "2025-07-21",
+    "usuario": "4acbb01e-e76e-4e51-9f64-689bee9d3649",
+    "matriculas": [],
+    "creditos": {
+      "fundamentacionObligatoria": 0,
+      "fundamentacionOptativa": 0,
+      "disciplinarObligatoria": 0,
+      "disciplinarOptativa": 0,
+      "libreEleccion": 0,
+      "total": 0
+    }
   }
 ]
