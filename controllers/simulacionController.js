@@ -1,4 +1,3 @@
-const { v4: uuidv4 } = require('uuid');
 const SimulacionModel = require('../models/simulacionModel');
 
 class SimulacionController {
@@ -30,7 +29,7 @@ class SimulacionController {
       
       const nueva = { 
         ...req.body, 
-        id: uuidv4(),
+        id: SimulacionModel.getNextNumericId(),
         usuario: userId
       };
       
