@@ -15,11 +15,56 @@
     }
   },
   {
-    "id": "73484cf3-d280-4ed5-8557-a479a99050bf",
-    "nombre": "hola",
+    "id": "c8d5c33f-2dd9-4358-a0f7-41c9f137cfd4",
+    "nombre": "1",
     "fechaCreacion": "2025-07-21",
-    "usuario": null,
-    "matriculas": [],
+    "usuario": "dev-user-1753123523317",
+    "matriculas": [
+      {
+        "id": "m1753123687016",
+        "posicion": 1,
+        "asignaturas": [
+          {
+            "codigo": "1000004-M",
+            "nombre": "CÁLCULO DIFERENCIAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS Estudiar los conceptos de límite y derivada para funciones de una variable real y utilizar estas ideas en la solución de problemas de optimización, trazado de curvas y razones de cambio. METODOLOGÍA: La modalidad de cursos magistrales consiste de un sistema integrado de conferencias teóricas, talleres y asesorías. Cada curso magistral tiene dos conferencias teóricas a la semana, de dos horas cada una, y son atendidas por profesores de planta, por monitores académicos de posgrado y en casos excepcionales por docentes ocasionales. El estudiante de un curso magistral tiene la opción de asistir a un taller semanal de dos horas, que sirve de refuerzo a la clase teórica y que está a cargo de un monitor académico de posgrado o de pregrado. Así mismo el estudiante puede ser atendido de manera individual en las asesorías. Las asesorías son brindadas, tanto por los profesores de planta como por los monitores académicos de posgrado y pregrado. En las asesorías el estudiante consulta las dudas teóricas y recibe orientación acerca de los ejercicios que no pudo resolver en su trabajo personal. La asistencia de los estudiantes a las asesorías es opcional."
+          },
+          {
+            "codigo": "1000005-M",
+            "nombre": "CÁLCULO INTEGRAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [
+              "1000004-M"
+            ],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS: General: lograr la apropiación por parte del. estudiante de los conceptos fundamentales del cálculo integral de funciones de una variable real y crear habilidades que le permitan aplicar estos conocimientos en problemas propios de su disciplina y abordar de manera elemental los conceptos de sucesiones y series. Específicos: - Conocer y manejar con propiedad el concepto de integral definida de una función real de una variable real y su relación con el concepto de primitiva o antiderivada, para facilitar los cálculos. - Estudiar algunas de las diferentes aplicaciones del concepto de integral. - Adquirir destrezas en el estudio de la convergencia de sucesiones y series."
+          }
+        ]
+      },
+      {
+        "id": "m1753123695973",
+        "posicion": 2,
+        "asignaturas": [
+          {
+            "codigo": "1000008-M",
+            "nombre": "GEOMETRÍA VECTORIAL Y ANALÍTICA",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS: 1. Desarrollar destrezas y habilidades en el uso del álgebra vectorial de dos y tres dimensiones y sus aplicaciones a otras ramas de la matemática. Proporcionar los elementos básicos de la teoría de matrices y de la solución de sistemas de ecuaciones lineales. 2. Dibujar e interpretar gráficas de lugares geométricos en el plano y en el espacio. 3. Proporcionar al estudiante los conocimientos básicos para el futuro aprendizaje del cálculo, la física y el álgebra lineal."
+          }
+        ]
+      }
+    ],
     "creditos": {
       "fundamentacionObligatoria": 0,
       "fundamentacionOptativa": 0,
@@ -30,11 +75,40 @@
     }
   },
   {
-    "id": "b740a323-d585-41e5-a0f5-d437d0f58f50",
-    "nombre": "olol",
+    "nombre": "1",
     "fechaCreacion": "2025-07-21",
-    "usuario": "4acbb01e-e76e-4e51-9f64-689bee9d3649",
-    "matriculas": [],
+    "usuario": "dev-user-1753123806860",
+    "matriculas": [
+      {
+        "id": "m1753124614389",
+        "posicion": 1,
+        "asignaturas": [
+          {
+            "codigo": "1000004-M",
+            "nombre": "CÁLCULO DIFERENCIAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS Estudiar los conceptos de límite y derivada para funciones de una variable real y utilizar estas ideas en la solución de problemas de optimización, trazado de curvas y razones de cambio. METODOLOGÍA: La modalidad de cursos magistrales consiste de un sistema integrado de conferencias teóricas, talleres y asesorías. Cada curso magistral tiene dos conferencias teóricas a la semana, de dos horas cada una, y son atendidas por profesores de planta, por monitores académicos de posgrado y en casos excepcionales por docentes ocasionales. El estudiante de un curso magistral tiene la opción de asistir a un taller semanal de dos horas, que sirve de refuerzo a la clase teórica y que está a cargo de un monitor académico de posgrado o de pregrado. Así mismo el estudiante puede ser atendido de manera individual en las asesorías. Las asesorías son brindadas, tanto por los profesores de planta como por los monitores académicos de posgrado y pregrado. En las asesorías el estudiante consulta las dudas teóricas y recibe orientación acerca de los ejercicios que no pudo resolver en su trabajo personal. La asistencia de los estudiantes a las asesorías es opcional."
+          },
+          {
+            "codigo": "3010408",
+            "nombre": "Fundamentos de proyectos en ingeniería",
+            "creditos": 3,
+            "tipologia": "Disciplinar Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "El objetivo principal del curso, que utiliza la metodología de aprendizaje basado en proyectos, es desarrollar pensamiento crítico y habilidades para resolver problemas, analizando el entorno y desarrollando el estado del arte del tema a trabajar para plantear soluciones a problemas reales. A través del trabajo en equipo de un proyecto, el estudiante desarrolla habilidades profesionales transversales, tales como comunicación (escrita y oral), toma de decisiones, trabajo en equipo y gestión de proyectos. Objetivos - Conocer y aplicar técnicas de identificación, caracterización y análisis de problemáticas, problemas, necesidades u oportunidades (PNO) en ing. - Plantear y analizar alternativas de solución en ing. - Plantear soluciones en ing. adaptadas a PNO reales y/o locales. - Identificar costos de la propuesta. Temas que aportan conocimiento nuevo para desarrollar capacidades de formulación y ejecución de proyectos: - Marco Lógico. - Introducción al diseño en Ing. - Búsqueda de información relevante. - Toma de decisiones en ing. - Análisis básico de costos. El curso se enmarca en la identificación de una PNO del contexto real, el estudiante tiene la posibilidad de explorar temas de interés. Los proyectos pueden tener diferentes orígenes. Autocoevaluación aplicada a la nota final, instrumento que permite la evaluación entre los integrantes de cada equipo. Las notas serán las correspondientes al integrante que menos saque. Cada nota se relaciona con el trabajo en equipo. PRÁCTICA: el desarrollo de los temas de la asignatura podrá tener como complemento el desarrollo de prácticas extramurales, visitas técnicas, salidas de campo; en la ciudad de Medellín o en los Municipios del departamento de Antioquia; las cuales estarán supeditadas al cumplimiento de los requerimientos definidos por la Universidad Nacional de Colombia.Tendrá una duración de 1 o máximo 2 días según el alcance de la práctica(aprobado por el CFM 5/12/2024 oficio M.FM.1.004-7224 del 6/12/2024).",
+            "avance": false,
+            "avanceTipologia": "",
+            "avancePorcentaje": ""
+          }
+        ]
+      }
+    ],
     "creditos": {
       "fundamentacionObligatoria": 0,
       "fundamentacionOptativa": 0,
@@ -42,6 +116,7 @@
       "disciplinarOptativa": 0,
       "libreEleccion": 0,
       "total": 0
-    }
+    },
+    "id": "306829"
   }
 ]
