@@ -17,7 +17,8 @@ class UserController {
 
     res.status(statusCode).json({
       redirect: (user.rol === 'estudiante') ? '/simulaciones' : '/admin/asignaturas',
-      userId: user.id
+      userId: user.id,
+      userRole: user.rol
     });
   }
 }
