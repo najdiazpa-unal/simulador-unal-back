@@ -235,26 +235,5 @@
       "total": 0
     },
     "id": "306830"
-  },
-  {
-    "nombre": "dcm",
-    "fechaCreacion": "2025-07-22",
-    "usuario": "4acbb01e-e76e-4e51-9f64-689bee9d3649",
-    "matriculas": [
-      {
-        "id": "m1753159710793",
-        "posicion": 1,
-        "asignaturas": []
-      }
-    ],
-    "creditos": {
-      "fundamentacionObligatoria": 0,
-      "fundamentacionOptativa": 0,
-      "disciplinarObligatoria": 0,
-      "disciplinarOptativa": 0,
-      "libreEleccion": 0,
-      "total": 0
-    },
-    "id": "306831"
   }
 ]
