@@ -118,5 +118,122 @@
       "total": 0
     },
     "id": "306829"
+  },
+  {
+    "nombre": "1",
+    "fechaCreacion": "2025-07-22",
+    "usuario": "65296dff-328c-4c43-9332-28f3ac877ff9",
+    "matriculas": [
+      {
+        "id": "m1753152185082",
+        "posicion": 1,
+        "asignaturas": [
+          {
+            "codigo": "1000004-M",
+            "nombre": "CÁLCULO DIFERENCIAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS Estudiar los conceptos de límite y derivada para funciones de una variable real y utilizar estas ideas en la solución de problemas de optimización, trazado de curvas y razones de cambio. METODOLOGÍA: La modalidad de cursos magistrales consiste de un sistema integrado de conferencias teóricas, talleres y asesorías. Cada curso magistral tiene dos conferencias teóricas a la semana, de dos horas cada una, y son atendidas por profesores de planta, por monitores académicos de posgrado y en casos excepcionales por docentes ocasionales. El estudiante de un curso magistral tiene la opción de asistir a un taller semanal de dos horas, que sirve de refuerzo a la clase teórica y que está a cargo de un monitor académico de posgrado o de pregrado. Así mismo el estudiante puede ser atendido de manera individual en las asesorías. Las asesorías son brindadas, tanto por los profesores de planta como por los monitores académicos de posgrado y pregrado. En las asesorías el estudiante consulta las dudas teóricas y recibe orientación acerca de los ejercicios que no pudo resolver en su trabajo personal. La asistencia de los estudiantes a las asesorías es opcional."
+          }
+        ]
+      },
+      {
+        "id": "m1753152332118",
+        "posicion": 2,
+        "asignaturas": [
+          {
+            "codigo": "1000008-M",
+            "nombre": "GEOMETRÍA VECTORIAL Y ANALÍTICA",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS: 1. Desarrollar destrezas y habilidades en el uso del álgebra vectorial de dos y tres dimensiones y sus aplicaciones a otras ramas de la matemática. Proporcionar los elementos básicos de la teoría de matrices y de la solución de sistemas de ecuaciones lineales. 2. Dibujar e interpretar gráficas de lugares geométricos en el plano y en el espacio. 3. Proporcionar al estudiante los conocimientos básicos para el futuro aprendizaje del cálculo, la física y el álgebra lineal."
+          },
+          {
+            "codigo": "1000019-M",
+            "nombre": "FÍSICA MECÁNICA",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS: Generales: - Desarrollar los conceptos fundamentales de la mecánica Newtoniana y aplicar estos a diversas situaciones típicas de la física. - Desarrollar en los estudiantes capacidad para enfrentar y resolver problemas e iniciarlos en los métodos experimentales de la física. Específicos: - Definir las magnitudes físicas fundamentales y dar una descripción matemática del movimiento de las partículas. - Estudiar el contenido fundamental de las leyes de Newton. - Presentar los conceptos de trabajo y energía con la respectiva ley de conservación de la energía mecánica. - Estudiar la relación entre la cantidad de movimiento y las fuerzas en un sistema de partículas y entre la energía cinética y los trabajos. - Estudiar el equilibrio de un cuerpo rígido e introducir su dinámica de rotación. METODOLOGÍA Y EVALUACIÓN En la semana habrán tres sesiones de a 2 horas. Una sesión corresponderá a una práctica de laboratorio; las otras dos corresponderán a clases magistrales."
+          },
+          {
+            "codigo": "1000005-M",
+            "nombre": "CÁLCULO INTEGRAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [
+              "1000004-M"
+            ],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVOS: General: lograr la apropiación por parte del. estudiante de los conceptos fundamentales del cálculo integral de funciones de una variable real y crear habilidades que le permitan aplicar estos conocimientos en problemas propios de su disciplina y abordar de manera elemental los conceptos de sucesiones y series. Específicos: - Conocer y manejar con propiedad el concepto de integral definida de una función real de una variable real y su relación con el concepto de primitiva o antiderivada, para facilitar los cálculos. - Estudiar algunas de las diferentes aplicaciones del concepto de integral. - Adquirir destrezas en el estudio de la convergencia de sucesiones y series."
+          }
+        ]
+      },
+      {
+        "id": "m1753152880233",
+        "posicion": 3,
+        "asignaturas": [
+          {
+            "codigo": "1000003-M",
+            "nombre": "ÁLGEBRA LINEAL",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [
+              "1000008-M"
+            ],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "OBJETIVO Asimilar los fundamentos del Algebra Lineal, a nivel elemental, pero con la profundidad necesaria para adquirir los conocimientos y habilidades básicas (capacidad de análisis y de razonamiento lógico - deductivo) para la solución de problemas en las cuales estén involucrados los elementos matemáticos de sistemas de ecuaciones lineales, espacios vectoriales, valores y vectores propios de una matriz y diagonalización de matrices. METODOLOGÍA: La modalidad de cursos magistrales consiste de un sistema integrado de conferencias teóricas, talleres y asesorías. Cada curso magistral tiene dos conferencias teóricas a la semana, de dos horas cada una, y son atendidas por profesores de planta, por monitores académicos de posgrado y en casos excepcionales por docentes ocasionales. El estudiante de un curso magistral tiene la opción de asistir a un taller semanal de dos horas, que sirve de refuerzo a la clase teórica y que está a cargo de un monitor académico de posgrado o de pregrado. Así mismo el estudiante puede ser atendido de manera individual en las asesorías. Las asesorías son brinadadas, tanto por los profesores de planta como por los monitores académicos de posgrado y pregrado. En las asesorías el estudiante consulta las dudas teóricas y recibe orientación acerca de los ejercicios que no pudo resolver en su trabajo personal. La asistencia de los estudiantes a las asesorías es opcional."
+          }
+        ]
+      },
+      {
+        "id": "m1753152916483",
+        "posicion": 4,
+        "asignaturas": [
+          {
+            "codigo": "3010651",
+            "nombre": "Estadística I",
+            "creditos": 3,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [
+              "1000003-M",
+              "1000005-M"
+            ],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "Objetivos: Proporcionar elementos básicos acerca de la teoría de la probabilidad, variables aleatorias y distribuciones de variables aleatorias. Lograr que el estudiante se apropie de las técnicas básicas usadas frecuentemente en el análisis de datos, estimación de parámetros, inferencia estadística y regresión lineal. Metodología: la exposición de los temas es tipo magistral, con ejemplos ilustrativos y computacionales referente a cada uno de temas comentados en clase. Usualmente se usa un paquete estadístico para presentar de manera más adecuada y resumida algunos de los temas que así lo requieren y son base para la realización de trabajos propuestos en la evaluación y en los ejemplos de clase. los profesores ponen a disposición de los estudiantes horarios de atención y asesoría para reforzar los conceptos vistos en clase. asimismo, se cuenta con la ayuda de monitores los cuales tienen como tareas la realización de talleres complementarios y asesoría a estudiantes."
+          },
+          {
+            "codigo": "3006906",
+            "nombre": "MATEMÁTICAS DISCRETAS",
+            "creditos": 4,
+            "tipologia": "Fundamentación Obligatoria",
+            "prerrequisitos": [],
+            "correrquisitos": [],
+            "disponible": true,
+            "descripcion": "Objetivos generales: 1. Motivar al estudiante para que se familiarice con los métodos abstractos de razonamiento y de representación de la información. 2. Refinar la destreza matemática de los estudiantes, especialmente su habilidad para entender y escribir demostraciones y dividir problemas grandes en partes más manejables. 3. Mejorar el razonamiento matemático a través del estudio de estructuras discretas y análisis combinatorio y preparación de algoritmos. Objetivos específicos: 1. Introducir los primeros elementos de matemática discreta que permiten formar modelos y herramientas para analizar fenómenos del mundo real, que no pueden ser estudiados utilizando métodos del cálculo y el análisis. 2. Preparar al estudiante para la solución de problemas y prueba de algoritmos utilizando métodos que son apropiados para el uso del computador. 3. Destacar el papel de la teoría de grafos en la matemática y la informática. 4. Preparar al estudiante en métodos de demostración, entre los que se destaca la inducción matemática"
+          }
+        ]
+      }
+    ],
+    "creditos": {
+      "fundamentacionObligatoria": 0,
+      "fundamentacionOptativa": 0,
+      "disciplinarObligatoria": 0,
+      "disciplinarOptativa": 0,
+      "libreEleccion": 0,
+      "total": 0
+    },
+    "id": "306830"
   }
 ]
