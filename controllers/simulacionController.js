@@ -1,4 +1,4 @@
-const SimulacionModel = require('../models/simulacionModel');
+const SimulacionModel = require('../models/SimulacionModel');
 
 class SimulacionController {
   static async getAll(req, res) {

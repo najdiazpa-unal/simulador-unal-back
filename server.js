@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const UserController = require('./controllers/userController');
+const MatriculaController = require('./controllers/matriculaController');
 const SimulacionController = require('./controllers/simulacionController');
 const asignaturasData = require('./data/asignaturas.json');
 const AsignaturaController = require('./controllers/asignaturaController');
@@ -87,3 +88,12 @@ app.get('/api/configuracion', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+// MATRÍCULAS
+// Obtener todas las asignaturas matriculadas en una simulación
+app.get('/api/simulaciones/:id/matriculas', MatriculaController.list);
+
+// Agregar una asignatura a la simulación (matricular)
+app.post('/api/simulaciones/:id/matriculas', MatriculaController.add);
+
+// Eliminar una asignatura matriculada de una simulación
+app.delete('/api/simulaciones/:id/matriculas/:codigo', MatriculaController.remove);
