@@ -824,7 +824,7 @@
       "nombre": "CÁLCULO EN VARIAS VARIABLES",
       "creditos": 4,
       "tipologia": "Fundamentación Optativa",
-      "prerrequisitos": [],
+      "prerrequisitos": ["1000005-M"],
       "correrquisitos": [],
       "disponible": true,
       "descripcion": "OBJETIVOS: - Estudiar los conceptos fundamentales del cálculo de funciones de varias variables (límites, continuidad, diferenciación e integración) y los teoremas centrales del Cálculo vectorial (Teoremas de Green, Gauss y Stokes). - Estimular y desarrollar la capacidad de análisis y de razonamiento lógico-deductivo del estudiante. - Capacitar al estudiante para la interpretación, formulación y solución de problemas en las áreas relacionadas con su especialidad en las cuales se haga necesario la aplicación del cálculo de funciones de varias variables y del cálculo vectorial."
